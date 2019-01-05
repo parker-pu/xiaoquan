@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scrapy = "*"
+user-agent = "*"
+zbarlight = "*"
+sqlalchemy = "*"
+pymysql = "*"
+pytest = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
